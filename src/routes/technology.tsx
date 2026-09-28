@@ -22,7 +22,7 @@ export const Route = createFileRoute("/technology")({
       },
     ],
   }),
-  component: Technology;
+  component: Technology,
 });
 
 const strata = [
