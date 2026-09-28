@@ -36,15 +36,15 @@ export function SiteHeader() {
       }`}
     >
       <div className="shell grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-4">
-        <Link to="/" className="flex min-w-0 items-center gap-3" aria-label={brand.name}>
-          <img
-            src={logo.url}
-            alt={`${brand.name} logo`}
-            width={160}
-            height={107}
-            className="h-9 w-auto shrink-0 brightness-0 invert md:h-10"
-          />
+        <Link to="/" className="flex min-w-0 items-baseline gap-2" aria-label={brand.name}>
+          <span className="font-display text-lg leading-none font-extrabold tracking-[-0.03em] text-bone uppercase md:text-xl">
+            Vega
+          </span>
+          <span className="font-display text-lg leading-none font-medium tracking-[0.12em] text-leaf uppercase md:text-xl">
+            Borewells
+          </span>
         </Link>
+
 
         <nav className="hidden items-center gap-8 lg:flex">
           {nav.map((item) => (
@@ -114,11 +114,12 @@ export function SiteFooter() {
           <img
             src={logo.url}
             alt={`${brand.name} logo`}
-            width={220}
-            height={147}
+            width={440}
+            height={293}
             loading="lazy"
-            className="h-12 w-auto brightness-0 invert"
+            className="h-24 w-auto bg-bone p-3"
           />
+
           <p className="mt-6 max-w-sm text-sm leading-relaxed text-bone/65">
             Groundwater exploration and borewell engineering since {brand.established}.
           </p>

@@ -40,7 +40,7 @@ function Home() {
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         />
         <div className="absolute inset-0 -z-10 bg-gradient-to-t from-charcoal via-charcoal/75 to-charcoal/35" />
-        <div className="absolute inset-0 -z-10 bg-forest/25" />
+        <div className="absolute inset-0 -z-10 bg-forest/12" />
 
         <div className="shell">
           <p className="eyebrow text-leaf">
